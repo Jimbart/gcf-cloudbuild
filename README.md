@@ -1,4 +1,4 @@
-# Project Lifecycle
+# Cloud build pipeline for Cloud Function
 
 This application is deployed in Google Cloud Platform (GCP). The purpose of this application is to demonstrate how to move GCP projects from one folder to another using resource manager and utilize Cloud Build for the CI/CD pipeline.
 
