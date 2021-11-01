@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-docs-project-lifecycle",
+  "main": "index.js",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "dl CIO Cloud CoE <dlCIOCloudCoE@telus.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telus/cio-project-lifecycle-cloud-function.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.0.0",
+    "@google-cloud/pubsub": "^0.18.0",
+    "googleapis": "65.0.0",
+    "@google-cloud/resource":"1.2.1",
+    "moment":"2.29.1",
+    "@google-cloud/storage":"5.5.0"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.1.1",
+    "@google-cloud/pubsub": "^2.0.0"
+  }
+}

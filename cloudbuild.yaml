@@ -1,0 +1,14 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: Build Cloud Function
+    args:
+    - functions
+    - deploy
+    - sandbox_function
+    - --region=northamerica-northeast1
+    - --runtime=nodejs10
+    - --entry-point=sandboxProjectPubSub
+    - --memory=128MB
+    - --timeout=540
+    - --trigger-topic=sandbox_topic
+    - --source=sandbox-projects/.
